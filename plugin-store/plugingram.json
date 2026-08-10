@@ -1,0 +1,12 @@
+{
+  "id": "plugingram-store-examples",
+  "name": "Store Examples Pack",
+  "version": "1.0.0",
+  "author": "@plugingram",
+  "description": "Example pack used as a publishing template. Prefer per-plugin repos with topic plugingram-plugin.",
+  "type": "utility",
+  "packageUrl": "files/store-hello.zip",
+  "repoUrl": "https://github.com/plugingram/plugin-store",
+  "tags": ["example", "plugingram-plugin"],
+  "permissions": ["ui.modify"]
+}

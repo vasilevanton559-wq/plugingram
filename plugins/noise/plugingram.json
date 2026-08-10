@@ -1,0 +1,10 @@
+{
+  "id": "noise",
+  "name": "Noise",
+  "version": "1.0.0",
+  "author": "Plugingram",
+  "description": "Скрывает телефоны и коды в профилях шумом спойлера. Клик — показать.",
+  "type": "utility",
+  "icon": "icon.png",
+  "permissions": ["commands.register"]
+}

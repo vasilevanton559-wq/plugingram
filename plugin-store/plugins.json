@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1",
+  "catalogTitle": "Plugingram Community Store",
+  "entries": [
+    {
+      "id": "store-ocean",
+      "name": "Ocean Theme",
+      "version": "1.0.0",
+      "author": "Plugingram",
+      "description": "Free drop-in ocean theme from the Plugingram GitHub store.",
+      "type": "theme",
+      "packageUrl": "https://raw.githubusercontent.com/plugingram/plugin-store/main/files/store-ocean.zip",
+      "tags": [
+        "theme",
+        "free"
+      ],
+      "permissions": [
+        "ui.modify"
+      ],
+      "url": "https://raw.githubusercontent.com/plugingram/plugin-store/main/files/store-ocean.zip"
+    },
+    {
+      "id": "store-hello",
+      "name": "Hello Panel",
+      "version": "1.0.0",
+      "author": "Plugingram",
+      "description": "Sample UI extension available in the store.",
+      "type": "ui_extension",
+      "packageUrl": "https://raw.githubusercontent.com/plugingram/plugin-store/main/files/store-hello.zip",
+      "tags": [
+        "ui",
+        "free"
+      ],
+      "permissions": [
+        "ui.modify",
+        "commands.register"
+      ],
+      "url": "https://raw.githubusercontent.com/plugingram/plugin-store/main/files/store-hello.zip"
+    }
+  ]
+}
