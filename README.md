@@ -5,8 +5,6 @@
 Неофициальный клиент на базе [Telegram Desktop](https://github.com/telegramdesktop/tdesktop) **7.0.9** (Windows x64).  
 Не связан с Telegram Messenger LLP. Лицензия: GPLv3 + OpenSSL exception (`LEGAL`, `LICENSE`).
 
-Для публичной раздачи exe нужны свои `api_id` / `api_hash` — [`docs/api_credentials.md`](docs/api_credentials.md), [`SECURITY.md`](SECURITY.md).
-
 Канал: [@plugingram_official](https://t.me/plugingram_official)
 
 ---
@@ -75,17 +73,6 @@
 - `python tools/plugingram_build_only.py` — только пересборка  
 - `python tools/export_plugingram_github.py` — чистый исходник для GitHub  
 - `python tools/plugingram_package_release.py` — zip из `out/Release`  
-
----
-
-## Pre-beta: чего нет
-- Стабильный публичный релиз и автообновление  
-- Code signing  
-- Гарантия стабильности API плагинов без breaking changes  
-- macOS / Linux как основной целевой платформы в этом дереве  
-
----
-
 ## Документация
 - Плагины (API): [`plugins/README.md`](plugins/README.md)  
 - Публикация в Store: [`plugin-store/README.md`](plugin-store/README.md)  
